@@ -6,13 +6,15 @@ package com.skytreasure.bingflightscraper.model;
 
 public class FlightModel {
     public String flightNumber;
+    public String flightCompany;
     public String statusDetails;
-    public String statusBadge;
-    public String arivalTime;
+    public String status;
+    public String arrivalTime;
+    public String arrivalTimeUpdated;
+    public String arrivalDate;
     public String departureTime;
-    public String departureArrivalTimings;
-    public String departureArrivalDates;
-    public String departureArrivalCities;
+    public String departureTimeUpdated;
+    public String departureDate;
     public String airportInfo;
     public String sourceDestinationCode;
     public String source;
@@ -22,6 +24,8 @@ public class FlightModel {
     public String aTerminal;
     public String dGate;
     public String aGate;
+    public String dBaggage;
+    public String aBaggage;
     public String dCityName;
     public String aCityName;
     public String otherDetails;

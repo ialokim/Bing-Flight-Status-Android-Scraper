@@ -16,7 +16,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements ParserResponseInterface {
 
-    String url = "https://www.bing.com/search?q=";
+    String url = "https://www.bing.com/search?setlang=en-us&q=";
     ActivityMainBinding mBinding;
 
     @Override
